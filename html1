@@ -1,1 +1,16 @@
-hello
+<html>
+<head>
+<title>Table</title>
+<body>
+<table  border=2 width=400>
+<tr>
+<td bgcolor="yellow">orange</td>
+<td bgcolor="ff0000" rowspan=2>red</td>
+<td  bgcolor="00ff00" rowspan=2>green</td>
+</tr>
+<tr>
+<td color="white" bgcolor="0000ff ">blue</td>
+</tr>
+</table>
+</body>
+</html>
