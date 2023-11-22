@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Form page</title>
+    </head>
+    <body>
+        <form action="22_11functionquestion.php" method="post">
+           UserName:<input type="text" name="fname" id="a"><br><br>
+           Password:<input type="password" name="pass" id="b"><br><br>
+           <input type ="submit" onclick="ab()" name="save">
+
+        </form>
+        <script>
+            function ab()
+            {
+                var a=document.getElementById("a").value;
+                var b=document.getElementById("a").value;
+                if (a!=" " && b!=" ")
+                {
+                    alert("user name log in successfully");
+                    return false;
+                }
+                else{
+                    return true;
+                }
+            }
+        </script>
+    </body>
+</html>
